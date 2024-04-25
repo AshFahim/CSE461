@@ -1,0 +1,5 @@
+{
+    "port": "COM3",
+    "board": "arduino:avr:uno",
+    "sketch": "motor\\motor_driver_test\\motor_driver_test.ino"
+}
