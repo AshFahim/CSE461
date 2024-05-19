@@ -45,7 +45,7 @@ The system performs the following tasks:
 1. Clone the repository to your local machine:
 
    ```shell
-   git clone https://github.com/AshFahim/CSE461
+   git clone https://github.com/AshFahim/car-crash-detection-and-notification-bot
    ```
 
 2. Connect all the components according to the pin configuration specified in the code.
