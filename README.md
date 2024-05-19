@@ -2,11 +2,16 @@
 
 # Robotic Car Safety System Readme
 
-Welcome to the Robotic Car Safety System project repository. This comprehensive document provides an in-depth overview of the project, its purpose, components, setup instructions, usage guidelines, contribution opportunities, and licensing information.
+Welcome to the Robotic Car Safety System project repository. This comprehensive document provides an overview of the project, its purpose, components, setup instructions, usage guidelines, contribution opportunities, and licensing information.
 
 ## Introduction
 
-The Robotic Car Safety System is a sophisticated project designed to augment the safety features of a robotic car. By incorporating a variety of sensors and control mechanisms, the system ensures the safe operation of the robotic car in various environments. This project serves as an educational and practical platform for showcasing the integration of multiple sensors, actuators, and decision-making logic within the context of robotics.
+The Robotic Car Safety System is a sophisticated project designed to augment the safety features of a robotic car. By incorporating a variety of sensors and control mechanisms, the system ensures the safe operation of the robotic car in various environments. This project serves as an educational and practical platform for showcasing the integration of multiple sensors, actuators, and decision-making logic within the context of robotics. Also communicate with the user through the wifi using the CallMeBot api.
+
+#images
+
+![](/img/bot.jpeg)
+![](/img/whatsapp.jpeg)
 
 ## Components
 
@@ -50,12 +55,10 @@ The system performs the following tasks:
 
 2. Connect all the components according to the pin configuration specified in the code.
 
-3. Upload the provided Arduino code (`project.ino`) to your Arduino board using the Arduino IDE.
-
-4. Include
-5. Power up the system and observe how the car reacts to different scenarios.
-
-## Circuit Diagram
+3. Upload the provided Arduino code (`/Arduino uno/project.ino`) to your Arduino board using the Arduino IDE.
+4. Include the necessary libraries in the Arduino IDE.
+5. Edit the provided ESP code (`/ESP32 DEVKIT V1/esp.ino`) and add wifi SSID and password. I used CallMeBot api you can add yours. Upload the code to your ESP32 Devkit using the Arduino IDE.
+6. Power up the system and observe the car's behavior based on the sensor inputs.
 
 ## Acknowledgements
 
